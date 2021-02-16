@@ -1,0 +1,233 @@
+{
+  "contact": {
+    "phone": "010-5213-2852",
+    "email": "ckdgml228@gmail.com",
+    "location": "Pusan, Korea"
+  },
+  "skills": [
+    {
+      "title": "Back-End",
+      "type": "percent",
+      "subskills": [
+        {
+          "name": "Express",
+          "percent": 90
+        },
+        {
+          "name":"Node.js",
+          "percent":"90"
+        },
+        {
+          "name": "Javascript",
+          "percent": 90
+        },
+        {
+          "name": "Java",
+          "percent": 70
+        }
+      ]
+    },
+    {
+      "title": "Front-End",
+      "type": "percent",
+      "subskills": [
+        {
+          "name": "React",
+          "percent":"90"
+        },
+        {
+          "name":"Javascript",
+          "percent":"90"
+        },
+        {
+          "name":"HTML/CSS",
+          "percent":"80"
+        }
+      ]
+    },
+    {
+      "title": "Databases",
+      "type": "tag",
+      "subskills": [
+        {
+          "name": "MySql"
+        },
+        {
+          "name": "Mongodb"
+        }
+      ]
+    },
+    {
+      "title": "Etc",
+      "type": "tag",
+      "subskills": [
+        {
+          "name": "Git"
+        },
+        {
+          "name": "AWS"
+        },
+        {
+          "name":"Notion"
+        },
+        {
+          "name":"Slack"
+        }
+      ]
+    }
+  ],
+  "summary": "대학교 2학년이 끝나가는 19년 10월 학교 내 연구실에 들어가게 되었습니다. 연구실에서 활동하며 C , JAVA , JS 언어와 REACT.JS 학습 ,EXPRESS 프레임워크를 활용하여 NODE.JS 학습, 개인 프로젝트 개발을 병행하며 경험을 쌓았습니다.목표를 잡고 설정한 방향에 맞게 책과 구글링을 통해 공부를 해보며 공부법을 익히게 되었습니다. 고등학교 시절 억지로 해오던 공부와는 달리 스스로 오늘 할 목표를 이루기 위해 학교를 가고 있는 모습에 뿌듯함과 목표를 이루었을 때 성취감을 느끼며 공부를 하였습니다. 앞으로의 목표는 코드의 리딩과 라이팅능력, 빠른생산성, 커뮤니케이션에 능통한 개발자가 되는 것입니다. 아직 많이 부족한 점이 많습니다. 하지만 부족한 부분을 충분히 채울수있다는 자신감이 있고, 완벽해지기 위해 노력하기보다 발전 하기 위해 노력하고 싶습니다.",
+  "education": [
+    {
+      "institution": "동서대학교, 부산",
+      "degree": "컴퓨터공학부",
+      "start": "2016/03",
+      "end": "2022/02"
+    },
+    {
+      "institution": "부산대동고등학교",
+      "degree": "이과",
+      "start": "2014/02",
+      "end": "2016/02"
+    }
+  ],
+  "experience": [
+    {
+      "role": "학부생 연구원",
+      "company": "DN Lab",
+      "list":[
+        {"description":"동서대학교 소프트웨어공학 연구실"},
+        {"description":"소속 연구원들과 학과 커리큘럼에만 그치지않고 다양한 소프트웨어 개발을 함께 공부함"},
+        {"description":"평일 오전 10시에 출근, 오후 10시에 퇴근이 기본규칙"},
+        {"description":"매주 금요일마다 세미나를 진행하여 서로 배운걸 리뷰하고 피드백함"},
+        {"description":"다양한 학술제, 해커톤, 전시회 참여 경험"},
+        {"description":"CAREER 보다는 EXPERIENCE"}
+      ],
+      "start": "2019/10",
+      "end": "2021/12"
+    }
+  ],
+  "social": [
+    {
+      "service": "github",
+      "url": "https://github.com/moonchanghee"
+    }
+  ],
+  "role": "   Developer",
+  "projects": [
+    {
+      "name": "공유숙박 효율적 관리를 위한 IoT 기반  객실 매니지먼트 시스템ss",
+      "start":"2020/07",
+      "end":"2020.12",
+      "img":"iot",
+      "company": "Industry-University Cooperation Task",
+      "description": [
+        {
+          "text":"Spring과 React를 사용해 IOT 기반 객실 매니지먼트 시스템 개발"
+        },
+        {
+          "text":"React를 사용하여 예약 서비스 UI와 회사용 예약 관리 ERP를 개발"
+        },
+        {
+          "text":"개발한 프로젝트를 AWS에 배포"
+        },
+        {
+          "text":"업체에서 사용할 프로토타입을 설계 및 구현 해본 경험 및 팀원들과의 협업 및 StoryBook을 사용해 컴포넌트 설계를 경험해 본 프로젝트"
+        },
+        {
+          "text":"React,Redux등을 사용"
+        }
+      ],
+      "tag":[{"name":"React"},{"name":"Redux"},{"name":"Storybook"},{"name":"Git"},{"name":"Agile"},{"name":"Spring"},{"name":"Aws"},{"name":"Auth"}],
+      "link": "https://github.com/DN-2020/fe/tree/develop"
+    },
+    {
+      "name": "매장별 카드 추천 시스템",
+      "start":"2020/04",
+      "end":"2020.07",
+      "img":"KakaoTalk_20210201_201050207111",
+      "company": "Capstone Design",
+      "description": [
+        {
+          "text":"카카오 맵을 이용한 매장별 카드 할인율 순위 제공 프로젝트"
+        },
+        {
+          "text":"맵을 통하여 매장 위치를 시각적으로 보여주며 해당 매장에서 사용자가 등록한 카드의 할인율을 계산 후 순위 표시"
+        },
+        {
+          "text":"Android studio 사용 Ui설계 및 구축"
+        }
+      ],
+      "tag":[{"name":"Android Studio"},{"name":"Java"},{"name":"Git"}],
+      "link": "https://github.com/moonchanghee/Recommend-Card-Application"
+    },
+    {
+      "name": "친구와 함께하는 실시간 컨텐츠 소통 시스템",
+      "start":"2020/09",
+      "end":"2020.12",
+      "img":"s1",
+      "company": "Capstone Design",
+      "description": [
+        {
+          "text":"영상을 업로드하여 방을 생성 후 실시간 채팅기능을 통한 소통기능 제공"
+        },{
+          "text":"방생성과 동시에 해당방 입장 코드 생성"
+        },{
+          "text":"socket.io, room 을 사용하여 실시간 채팅 기능 개발"
+        },{
+          "text":"node.js, mysql 연동을 통한 친구목록, 회원정보, 방코드 관련 데이터 관리"
+        },{
+          "text":"node mvc 패턴 개발"
+        }
+
+
+
+      ],
+      "tag":[{"name":"Javascript"},{"name":"Express"},{"name":"Noode.js"},{"name":"Ejs"},{"name":"MySQL"},{"name":"Git"}],
+      "link": "https://github.com/moonchanghee/swp_video_share"
+    },
+    {
+      "name": "평점 라이더스 시스템",
+      "start":"2020/09",
+      "end":"2020.12",
+      "img":"s2",
+      "company": "Capstone Design",
+      "description": [
+        {
+          "text":"매장 주문화면과 라이더 모바일 화면 실시간 배달 현황 확인 기능 제공"
+        },
+        {
+          "text":"react를 통한 매장 , 관리자 , 라이더 모바일 UI 개발"
+        },
+        {
+          "text":"Spring , React.js간 socket 통신"
+        },
+        {
+          "text":"antd 라이브러리 활용 ui구축"
+        }
+
+      ],
+      "tag":[{"name":"Javascript"},{"name":"React.js"},{"name":"Git"}],
+      "link": "https://github.com/moonchanghee/db_project_rider"
+    }
+  ],
+  "etc":[
+
+    {
+      "name":"삼성 멀티캠퍼스 집합 React 교육 수료",
+      "link":"#",
+      "company":"Samsung multicampus",
+      "description":"React의 가상Dom의 작동 방식을 이해하고 UI 컴포넌트를 개발, JSX, FLUX를 이용해 뷰 컴포넌트를 구성하여 단방향 데이터 흐름의 처리 방식을 보완, Redux와 React-Router를 이용해 효과적으로 관리되는 SPA를 개발",
+      "period":"2018/07"
+    },
+    {
+      "name":"육군 병장 만기 전역",
+      "link":"#",
+      "company":"ROKA",
+      "description":"기동중대 보병",
+      "period":"2017/02 - 2018.11"
+    }
+
+  ],
+  "fullname": "문창희"
+}
