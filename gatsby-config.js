@@ -5,7 +5,7 @@
  */
 
 module.exports = {
-  pathPrefix: "changportfolio",
+  pathPrefix: "/changportfolio",
   siteMetadata: {
     title: `Baran Cezayirli | Technologist`,
     author: `Baran Cezayirli`,
