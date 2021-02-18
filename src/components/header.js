@@ -5,8 +5,8 @@ const Header = ({ name, role, contacts }) => (
   <header className="border-b border-neutral-300 pb-2 md:flex items-center justify-between">
     <div>
       <img
-        className="rounded-full mx-auto w-32 lg:w-full xl:w-32"
-        // src="./profile.jpg"
+        className=" mx-auto w-32 lg:w-full xl:w-32"
+        src="./profile.png"
         alt="profile"
       />
     </div>
