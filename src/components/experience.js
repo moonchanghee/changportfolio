@@ -13,7 +13,7 @@ const Experience = ({ data }) => (
           <p className="py-6">{item.list.map((item,i)=>{
             return(
             <p>
-              <li className="item-ul">{item.description}</li>
+              <li className="item-ul">- {item.description}</li>
             </p>)
             })}
               </p>

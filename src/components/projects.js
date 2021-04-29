@@ -1,10 +1,12 @@
 import React from 'react';
 
 const Projects = ({ data }) => (
-  <section>
+  <section >
     <h1 className="section-header">Projects</h1>
+
     {data.map(item => (
       <>
+       <section className="py-5 border-b border-neutral-300  items-center">
         <article className="my-5" key={item.name}>
           <a href={item.link}><h2 className="item-header">{item.name}</h2></a>
           <h3 className="item-sub">
@@ -16,13 +18,15 @@ const Projects = ({ data }) => (
             <img className="project-image" src={`./${item.img}.jpg`} alt={item.img}></img>
           </div>
           <div className="project-contents-description">
-            {item.description.map((des,i)=>{
+          <ul>
+          {item.description.map((des,i)=>{
               return(
-                <p>
-                  <li className="item-ul">{des.text}</li>
-                </p>)
+                
+                  <li className="item-ul">  ●   {des.text}</li>
+                )
             })}
-            <div className="project-contents-tag">
+            </ul>
+            <div className="project-contents-tag" style ={{marginTop:"50px"}}>
               {item.tag.map(tag=>{
                 return (
                 <span key={tag.name} className="tag">
@@ -33,8 +37,10 @@ const Projects = ({ data }) => (
             </div>
           </div>
         </div>
+        </section>
       </>
     ))}
+    <br/><br/><br/>
   </section>
 );
 
